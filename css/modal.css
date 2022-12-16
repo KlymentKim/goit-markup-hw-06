@@ -1,0 +1,72 @@
+     /* MODAL WINDOW/ */
+.backdrop {
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 100;
+     width: 100%;
+     height: 100%;
+     background-color: rgba(46, 47, 66, 0.5);
+    
+     transition: opacity 255ms;
+ }
+.backdrop.is-hidden {
+    opacity: 0;
+         /* не действует ни какие собітія */
+    pointer-events: none;
+    visibility: hidden;
+    position: absolute;
+}
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    min-width: 408px;
+    min-height: 576px;
+
+    background: #FCFCFC;
+    box-shadow: 0px 1px 1px
+    rgba(0, 0, 0, 0.14), 0px 1px 3px 
+    rgba(0, 0, 0, 0.12), 0px 2px 1px
+    rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+.btn-close {
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
+
+    padding: 0;
+    border-radius: 50%;
+
+    background-color: transparent;
+
+    width: 24px;
+    height: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: border-color var();
+}
+.icon-close {
+    width: 8px;
+    height: 8px; 
+}
+.btn-close:hover,
+.btn-close:focus {
+    border-color: #4D5AE5;        
+}
+.btn-close:hover .icon-close,
+.icon-close:focus .icon-close {
+    fill: #4D5AE5;
+}
+
+     /* MODAL WINDOW PORTFOLIO/ */
+
+ 
