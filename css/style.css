@@ -32,7 +32,7 @@ button{
     cursor: pointer;
 }
 :root{
-    --primary-color-text:#2E2F42;
+    --primary-color-text:#2E2F42; 
     --primary-color-title:#2E2F42;
     --primary-color-baground:#FFFFFF;
     --primary-color-contact:#434455;
@@ -420,14 +420,10 @@ body{
 }
 .footer-wrapper{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: row;
+    /* flex-wrap: wrap; */
     /* justify-content: flex-start; */
-    /* margin-left: 0; */
-    
-    /* width: 264px; */
-    
+    /* flex-direction: row; */
+      
 }
 .main-footer-text,
 .portfolio-footer-text{
@@ -444,9 +440,7 @@ body{
 }
 .wrapper-list-social-media{
    display: flex;
-   align-items: stretch;
+   /* align-items: stretch; */
 }
 
-
-
-
+/* --------------------------------------- */
