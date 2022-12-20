@@ -11,19 +11,21 @@
     --timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+    /*--- Main photo ---*/
 .hero-section{
     max-width: 1600px;
     height: 603px;
     margin: 0 auto;
     
-    background-image: linear-gradient(rgba(46, 47, 66,0.7),
+    background-image: linear-gradient
+    (rgba(46, 47, 66,0.7),
     rgba(46, 47, 66,0.7)), 
     url(../images/header.jpg);
     
     background-color: #2E2F42;
     background-position: center;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 }
 .list-icons{
     display: flex;
