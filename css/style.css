@@ -189,7 +189,7 @@ body{
 
     padding: 16px 32px;
     border-radius: 4px;
-    transition: background-color 250ms linear;
+    transition: background-color 650ms linear ;
 }
 .btn:hover,
 .btn:focus{
