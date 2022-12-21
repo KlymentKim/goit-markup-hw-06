@@ -36,16 +36,11 @@
 }
 .btn-close {
        position: absolute;
-   
        top: 10px;
        right: 10px;
-   
        padding: 0;
        border-radius: 50%;
-   
-       /* background-color: transparent; */
-       background: #E7E9FC;
-   
+         
        width: 24px;
        height: 24px;
    
@@ -54,11 +49,8 @@
        align-items: center;
        border: none;
    
-       transition: border-color var();
-         box-shadow: 0px 1px 6px 
-              rgba(46, 47, 66, 0.08), 
-              0px 1px 1px rgba(46, 47, 66, 0.16), 
-              0px 2px 1px rgba(46, 47, 66, 0.08);      
+       transition: background-color 250ms linear;
+       border: 1px solid rgba(0, 0, 0, 0.1);     
 }
 
 .icon-close {
@@ -68,14 +60,11 @@
 
 .btn-close:hover,
 .btn-close:focus {
-       border-color:#000000;   
-       border: 1px solid rgba(0, 0, 0, 0.1);      
+       background-color:#404BBF;
+       outline: none; 
+       fill: #FFFFFF;
 }
-.btn-close:hover .icon-close,
-.icon-close:focus .icon-close {
-       fill: #4D5AE5;
-}
-   
+ 
 
         /* MODAL WINDOW/ */
 .modal-forma{
