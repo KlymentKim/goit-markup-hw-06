@@ -189,13 +189,12 @@ body{
 
     padding: 16px 32px;
     border-radius: 4px;
-    transition: color 500ms linear, background-color 500ms liner;
+    transition: background-color 250ms linear;
 }
 .btn:hover,
 .btn:focus{
     background-color: var(--color-btn-hover);
-    color:var(--primary-color-button);
-    color: var(--primary-color-baground);
+    outline: none;
 }
        
             /* Description-title Section-1 */

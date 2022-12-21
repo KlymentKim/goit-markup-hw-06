@@ -251,6 +251,8 @@
        border-radius: 4px;
        border: none;
        align-self: center;
+
+       transition: background-color 250ms linear;
 }
 .btn-form:hover{
        background-color: var(--color-btn-hover);   
