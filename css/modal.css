@@ -218,6 +218,7 @@
    border: 1.25px solid #2E2F42;
    border-radius: 2px;
    margin-right: 8px;
+   padding: 2px 1px;
 }
 .form-checkbox:checked + .icon-checkbox{
        border-color: transparent;
@@ -253,7 +254,7 @@
        border: none;
        align-self: center;
 
-       transition: background-color 250ms linear;
+       transition: background-color 250ms ease;
 }
 .btn-form:hover{
        background-color: var(--color-btn-hover);   
