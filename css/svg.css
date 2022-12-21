@@ -17,10 +17,9 @@
     height: 603px;
     margin: 0 auto;
     
-    background-image: linear-gradient
-    (rgba(46, 47, 66,0.7),
+    background-image: linear-gradient(rgba(46, 47, 66,0.7),
     rgba(46, 47, 66,0.7)), 
-    url(../images/header.jpg);
+    url('../images/header.jpg');
     
     background-color: #2E2F42;
     background-position: center;
