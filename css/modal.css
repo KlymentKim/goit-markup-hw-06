@@ -210,7 +210,6 @@
        display: flex;
        justify-content: center;
        align-items: center;
-       margin-top: 16px;
 }
 .icon-checkbox{
    width: 16px;
@@ -238,11 +237,12 @@
 .text-after-checkbox + .link-text{
        color: rgba(77, 90, 229, 1);
 }
-
+.wrapper-checkbox{
+       padding: 24px;
+}
 .btn-form{
        width: 169px;
        height: 56px;
-       margin:  24px 119px;
        padding: 16px 32px;       
        background: #4D5AE5;
        color: #FFFFFF;
