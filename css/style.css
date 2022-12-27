@@ -72,7 +72,7 @@ body{
         position: absolute;
 }
 
-.container{
+/* .container{
     padding-left: 15px;
     padding-right: 15px;  
 }
@@ -94,11 +94,7 @@ body{
         margin: 0 auto;
     
     }
-}
-
-
-
-
+} */
 
 
 /* .container{
@@ -122,12 +118,13 @@ body{
 /* .line-bottom{
     padding-bottom: 24px;
     box-shadow: 0px 2px 1px
+
     rgba(46, 47, 66, 0.08), 0px 1px 1px
     rgba(46, 47, 66, 0.16), 
-0px 1px 6px rgba(46, 47, 66, 0.08)
-}
-.main-menu{
-    display: flex; */
+0px 1px 6px rgba(46, 47, 66, 0.08) 
+} */
+/* .main-menu{
+    display: flex; */ 
 /* }  */
             /* всі елементи nav горизонтально  */
 /* .container-menu{
@@ -327,7 +324,7 @@ body{
 /* .h3-goals,
 .h2-type-app{
     margin-bottom: var(--margin-bottom-set-img);
- 
+
 }
 .h3-goals,
 .h3-name,
