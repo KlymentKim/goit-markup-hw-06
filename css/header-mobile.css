@@ -1,14 +1,44 @@
+
 /* //////////////  Header CSS mobile //////////////// */
 
 @media screen and (max-width:1199px){
+    
+        .container-mobile{
+            width: 1199px;
+            margin: 0 auto;
+        
+        }
+    
     .header-menu-list{
         display: none;
     }
 }
+
 @media screen and (max-width:768px){
+    .container{
+        padding-left: 15px;
+        padding-right: 15px;  
+    }
+    @media screen and (min-width:480px) {
+        .container-mobile{
+            width: 428px;
+            margin: 0 auto;
+        }
+    }
+
+    @media screen and (min-width:768px) {
+        .container-mobile{
+            width: 766px;
+            margin: 0 auto;
+        }
+    }
+    
+    
     .header-menu-list{
         display: none;
     }
+
+    
 }
 
 /* //////////////   //////////////// */
