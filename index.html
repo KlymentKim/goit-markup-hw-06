@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="./css/fixed-header.css">
 
     <link rel="stylesheet" href="./css/header-mobile.css">
+    <link rel="stylesheet" href="./css/mobile-menu.css">
+
   </head>
   <body>
     <header class="header">
@@ -50,22 +52,20 @@
           </ul>
         </nav>
 
-              <!-- modal menu window  -->
         <button class="btn-open js-open-menu" >
           <svg class="btn-header-mobile" width="32" height="22">
               <use href="./images-mobile/svg/sprite-mobile.svg#icon-hamburger"></use>
           </svg>
           </button>
-
-        <div class="mobile-menu-form is-open js-menu-container">
-          <div class="container mobile-menu-wrapper">
-              <button class="btn-close js-close-menu">
-                  <svg class="icon-btn-close" width="24" heigth="24">
-                      <use href="./images-mobile/svg/sprite-mobile.svg#icon-close"></use>
-                  </svg>
-              </button>  
-            <!-- ////////////////////////////////////// -->
-        
+          
+            <!-- modal menu window  -->
+            <div class="mobile-menu-form is-open js-menu-container">
+              <div class="container mobile-menu-wrapper">
+                  <button class="btn-close js-close-menu">
+                      <svg class="icon-btn-close" width="24" heigth="24">
+                          <use href="./images-mobile/svg/sprite-mobile.svg#icon-close"></use>
+                      </svg>
+                  </button>  
         <ul class="header-menu-list menu-contact">
           <li class="menu-item">
             <a href="mailto:info@devstudio.com" class="contact-link link">info@devstudio.com</a>
@@ -74,7 +74,28 @@
             <a href="tel:+110001111111" class="contact-link link">+11 (000) 111-11-11</a>
           </li>
         </ul>
+            <!-- <div class="menu-links-mobile">
+                          <ul class="list-link link">
+                              <li class="item-link-studio"><a href="./index.html" class="link">
+                                  <span class="link-studio">Studio</span></a></li>
+                              <li class="item-link-studio"><a href="./portfolio.html" class="link">
+                                  <span class="link-studio">Portfolioh</span></a></li>
+                              <li class="item-link-studio"><a href="#" class="link">
+                                  <span class="link-studio">Contacts</span></a></li>
+                              <li class="item-link-tel">
+                                  <a href="tel:+110001111111" class="link">
+                                  <span class="link-studio-tel">+11 (000) 111-11-11</span></a></li>
+                              <li class="item-link-email">
+                                  <a href="mailto:info@devstudio.com" class="link">
+                                  <span class="link-studio-email">info@devstudio.com</span></a></li>
+                          </ul>
+                      </div> -->
       </div>
+
+
+  
+        <!-- ////////////////////////////////////// -->
+
     </header>
     <main>
       <!-- Header Tittle -->
@@ -614,6 +635,6 @@
   
     <!-- <script src="./modal.js"></script> -->
    
-    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
