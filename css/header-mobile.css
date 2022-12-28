@@ -179,6 +179,23 @@ body{
 .wrapper-list{
     width: 100%;
 }
+/* ////// SECTION 3 Employee////// */
+.main-title-todo{
+   text-align: center;
+    margin-bottom: 72px;
+}
+.employees-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.employee-wrapper{
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
 
 
 @media screen and (min-width:760px) {
