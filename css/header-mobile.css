@@ -86,11 +86,12 @@ body{
         .container-menu {
             margin-right: auto;
         }
+
     
          /* Fonts style */
 
     /* ///////////////////////////////// */
-        /* .main-logo1,
+        .main-logo1,
         .footer-logo1 {
             font-family: Raleway;
             font-style: normal;
@@ -100,6 +101,21 @@ body{
             line-height: 1.5;
             text-transform: uppercase;
         }
+.hero-section-mobile{
+    max-width: 428px;
+    height: 432px;
+    margin: 0 auto;
+    
+    background-image: linear-gradient(rgba(46, 47, 66,0.7),
+    rgba(46, 47, 66,0.7)), 
+    url('../images/mobile/bg-photo.jpg');
+    
+    background-color: #2E2F42;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
     
         .btn-order {
             display: block;
@@ -137,12 +153,14 @@ body{
             font-size: 18px;
             line-height: 1.5;
             text-transform: uppercase;
-        } */
+        }
+
+
 
 }
 
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:760px) {
     .container {
      width: 448px;
      margin: 0 auto;
