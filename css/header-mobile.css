@@ -223,32 +223,32 @@ border-radius: 0px 0px 4px 4px;
 }
 
 
-@media screen and (min-width:760px) {
+    @media screen and (min-width:760px){
     .container {
-     width: 448px;
-     margin: 0 auto;
-   }
+    width: 448px;
+    margin: 0 auto;
 
 }
             
-  @media screen and (min-width:768px) {
-     .container {
-      width: 766px;
-      
-     }
+    @media screen and (min-width:768px) {
+    .container {
+    width: 766px;
+
+}
 }
         
         
 @media screen and (min-width:1200px) {
         
-  .container {
+.container {
     width: 1199px; 
-  }
+}
         
 .header-menu-list {
     display: none;
-  }
-  
+    }
+
+    }
 }
 
 
