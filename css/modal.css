@@ -68,9 +68,11 @@
 
         /* MODAL WINDOW/ */
 .modal-forma{
+       position: absolute;
        display: flex;
        flex-direction: column;
        padding: 24px;
+       top:24px;
       
 }
 .title-text{
