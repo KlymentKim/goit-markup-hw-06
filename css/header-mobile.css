@@ -102,8 +102,8 @@ body{
             text-transform: uppercase;
         }
     .section{
-    padding-top: 112px;
-    padding-bottom: 112px;
+    padding-top: 96px;
+    padding-bottom: 96px;
     }
 .hero-section-mobile{
     max-width: 428px;
@@ -169,7 +169,7 @@ body{
             line-height: 1.5;
             text-transform: uppercase;
         }
-
+}
 
 /* ////// SECTION 1////// */
 .h3-goals:not(:last-child){
@@ -195,12 +195,21 @@ body{
     margin-top: 32px;
     margin-bottom: 8px;
 }
+.employee-card{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+} 
+.employee-card:not(:last-child){
+    margin-bottom: 72px;
+}
 
 
 /* ////////////////////////////////// */
 .wrapper{
-    display: flex;
-   
+    /* display: flex; */
+
 }
 .customers-title{
     text-align: center;
@@ -212,15 +221,28 @@ body{
     align-items: center;
     gap:16px;
 }
-.employee-card{
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-border-radius: 0px 0px 4px 4px;
-} 
-.employee-card:not(:last-child){
+.customers-title{
     margin-bottom: 72px;
 }
+/* //////////////// FOOTER ///////////////// */
+.footer{
+    background-color: #2E2F42;
+}
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+.footer-logo1{
+    color:#F4F4FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+/* ///////////////////////////////////////////////// */
+
 
 
     @media screen and (min-width:760px){
