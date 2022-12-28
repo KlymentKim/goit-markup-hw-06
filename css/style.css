@@ -55,7 +55,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--primary-color-baground);  
 }
-.visually-hidden {
+/* .visually-hidden { */
     /* position: absolute;
     width: 1px;card
     height: 1px;
@@ -67,10 +67,10 @@ body{
     clip: rect(0 0 0 0);
     overflow: hidden; */
 
-        visibility: hidden;
-        pointer-events: none;
-        position: absolute;
-}
+            /* visibility: hidden;
+            pointer-events: none;
+            position: absolute; */
+/* } */
 
 /* .container{
     padding-left: 15px;
