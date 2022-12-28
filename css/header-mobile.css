@@ -41,85 +41,56 @@ body{
 
 
 /* //////////////  Header CSS mobile //////////////// */
-
-.container{
-    padding-left: 15px;
-    padding-right: 15px;  
-}
-:root{
-    --primary-color-text:#2E2F42; 
-    --primary-color-title:#2E2F42;
-    --primary-color-baground:#FFFFFF;
-    --primary-color-contact:#434455;
+:root {
+    --primary-color-text: #2E2F42;
+    --primary-color-title: #2E2F42;
+    --primary-color-baground: #FFFFFF;
+    --primary-color-contact: #434455;
     --secondary-color-text: #434455;
-    --primary-color-button:#4D5AE5;
-    --primary-color-logo1:#4D5AE5;
-    --primary-color-logo2:#F4F4FD;
-    --footer-color-text:#E7E9FC;
-    --color-btn-hover:#404BBF;
-    
+    --primary-color-button: #4D5AE5;
+    --primary-color-logo1: #4D5AE5;
+    --primary-color-logo2: #F4F4FD;
+    --footer-color-text: #E7E9FC;
+    --color-btn-hover: #404BBF;
+
     --card-set-gap: 24px;
     --portfolio-img-set-gar: 24px;
     --padding-top-set-img: 32px;
     --margin-bottom-set-img: 8px;
 
-    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);    
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-        @media screen and (min-width:480px) {
-            .container {
-                width: 480px;
-                margin: 0 auto;
-            }
-        }
-    
-    
-        @media screen and (min-width:768px) {
-            .container-mobile {
-                width: 766px;
-                margin: 0 auto;
-            }
-        }
-    
-    
-        @media screen and (min-width:1199px) {
-    
-            .container-mobile {
-                width: 1199px;
-                margin: 0 auto;
-    
-            }
-    
-            .header-menu-list {
-                display: none;
-            }
-        }
+.container{
+    padding-left: 15px;
+    padding-right: 15px;  
+}
+
+
                 /* 0-768 */
 /* //////////////////////////////////////////// */
 @media screen and (max-width:768px) {
-
-    .header-menu-list{
-        display: none;
-    }
-         .header {
-             padding: 24px 24px;
-         }
     
-         .header-div {
-             display: flex;
-             align-items: center;
+    .header-menu-list {
+            display: none;
+        }
     
-         }
+        .header {
+            padding: 24px 24px;
+        }
     
-         .container-menu {
-             display: flex;
-             justify-content: space-between;
-             align-items: center;
-         }
+        .header-div {
+            display: flex;
+            align-items: center;
+        }
+    
+        .container-menu {
+            margin-right: auto;
+        }
     
          /* Fonts style */
 
     /* ///////////////////////////////// */
-        .main-logo1,
+        /* .main-logo1,
         .footer-logo1 {
             font-family: Raleway;
             font-style: normal;
@@ -166,11 +137,37 @@ body{
             font-size: 18px;
             line-height: 1.5;
             text-transform: uppercase;
-        }
+        } */
 
 }
 
 
- 
+@media screen and (min-width:500px) {
+    .container {
+     width: 448px;
+    margin: 0 auto;
+   }
+
+}
+            
+  @media screen and (min-width:768px) {
+     .container {
+      width: 766px;
+      
+     }
+}
+        
+        
+@media screen and (min-width:1200px) {
+        
+  .container {
+    width: 1199px; 
+  }
+        
+.header-menu-list {
+    display: none;
+  }
+  
+}
 
 
