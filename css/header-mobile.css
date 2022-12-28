@@ -115,6 +115,18 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+ .title-content-mobile{
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+.main-title-item{
+    margin-bottom: 80px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
 
     
         .btn-order {
