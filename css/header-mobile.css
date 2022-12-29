@@ -75,7 +75,7 @@ body{
         }
     
         .header {
-            padding: 24px 24px;
+            padding: 24px 16px;
         }
     
         .header-div {
@@ -88,7 +88,9 @@ body{
         }
 
     
-         /* Fonts style */
+
+}
+          /* Fonts style */
 
     /* ///////////////////////////////// */
 .main-logo1,
@@ -232,7 +234,6 @@ border-radius: 0px 0px 4px 4px;
 /* ////////////////////////////////// */
 .wrapper{
     /* display: flex; */
-
 }
 .customers-title{
     text-align: center;
@@ -496,7 +497,8 @@ margin: 0 auto;
 }
 /* ///////////////  modal window //////////////////////// */
 
-}
+
+
 @media screen and (min-width:768px){
     .menu-links-mobile{
         display: none;
@@ -510,40 +512,67 @@ margin: 0 auto;
     .btn-open{
         display: none;
     }
-    .header{
-        padding: 24px 24px;
-    }
+
     .section{
         padding-top: 112px;
         padding-bottom: 112px;
     } 
-    /* .header-div{
-        display: flex;
-    }
-    .container-menu{
-        display: flex;
-        justify-content: center;  
-        align-items: center;  
-
-    }
+   
+    .header{
+    padding: 24px 16px;     
+}
+    .header-div{
+        display: flex;  
+    } 
+ 
+        .main-menu{
+            display: flex; 
+        } 
+                    /* всі елементи nav горизонтально  */
+        .container-menu{
+            display: flex;
+            align-items: center;  
+            justify-content: space-between;   
+        }
+        /* link-subscribe  */
+                /* ul список */
         .header-menu-list{
-        display: flex;
-    } */
+            display: flex;
+        }  
+                /* logo отступ */
+        .main-logo1{
+            margin-right: 77px;
+        }
+        .contact-link{
+            margin-right: auto;
+        }
+        .menu-item:not(:last-child){
+            margin-right: 40px;
+        }
+        .menu-contact{
+            display: block;
+            margin-left: auto;
 
+        }
+        .contact-link{
+            margin-left: auto;
+
+        }
 
 }
 
-    @media screen and (max-width:768px) {
+    @media screen and (min-width:480px) {
     .container {
     width: 428px;
-    margin: 0 auto;
+    margin: 0 auto; 
 
     }
 }
             
     @media screen and (min-width:768px) {
     .container {
-    width: 736px;
+    width: 766px;
+    
     }
 }
         
@@ -551,7 +580,7 @@ margin: 0 auto;
 @media screen and (min-width:1200px) {
         
     .container {
-        width: 1199px; 
+        width: 1158px; 
     }
         
 }
