@@ -70,10 +70,6 @@ body{
 /* //////////////////////////////////////////// */
 @media screen and (max-width:760px) {
     
-    /* .container{
-        width: 80%;
-        margin: 0 auto;
-    } */
     .header-menu-list {
             display: none;
         }
@@ -205,7 +201,7 @@ body{
 
 /* ////// SECTION 3 Employee////// */
 .main-title-todo{
-   text-align: center;
+    text-align: center;
     margin-bottom: 72px;
 }
 .employees-list{
@@ -334,6 +330,25 @@ margin: 0 auto;
     display: flex;
     justify-content: center;
     
+}
+.link-subscribe{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
+}
+.form-input-mobile{
+    padding-left: 15px;
+}
+.form-input-mobile::placeholder,
+{
+    padding: 8px 0 8px 16px;
+}
+.form-input-mobile:focus{
+    outline: none;
+    background-color: transparent;
+    color: #FFFFFF;
 }
 /* ///////////////////////////////////////////////// */
 /* ///////////////  modal window //////////////////////// */
@@ -500,18 +515,18 @@ margin: 0 auto;
         padding-top: 112px;
         padding-bottom: 112px;
     } 
-.header-div{
-    display: flex;
-}
-.container-menu{
-    display: flex;
-    justify-content: center;  
-    align-items: center;  
-   
-}
-    .header-menu-list{
-    display: flex;
-}
+    /* .header-div{
+        display: flex;
+    }
+    .container-menu{
+        display: flex;
+        justify-content: center;  
+        align-items: center;  
+
+    }
+        .header-menu-list{
+        display: flex;
+    } */
 
 
 }
@@ -537,9 +552,9 @@ margin: 0 auto;
     width: 1199px; 
 }
         
-.header-menu-list {
+/* .header-menu-list {
     display: none;
-    }
+    } */
 
     }
 }
